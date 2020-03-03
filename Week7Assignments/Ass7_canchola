@@ -1,0 +1,17 @@
+#Assignment 07
+#Giovani Hernandez-Canchola
+
+#!/bin/env python
+
+#Create two variables
+a=3.33
+b=2.22
+
+#Perform some mathematical operation
+c=a*b
+
+#String that describes the mathematical operation. Floating values can not be concatenated with 
+#string values. With str() function, floating numbers are showed as string values.
+d = "This script multiplied " + str(a) + " by " + str(b) + " and got " + str(c)
+#Print the generated string
+print(d)
